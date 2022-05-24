@@ -48,7 +48,6 @@ public class EmployeeController {
 	//@RolesAllowed(@ConfigProperty(name = "roles_allowed_getEmployees"))
 	public Response checkPermissionDetails() {
 
-		System.out.println("Test GIT New ine");
 		CriteriaBuilder cb = entityManager.getCriteriaBuilder();
 		CriteriaQuery<Greeting> cq = cb.createQuery(Greeting.class);
 		Root<Greeting> rootEntry = cq.from(Greeting.class);
