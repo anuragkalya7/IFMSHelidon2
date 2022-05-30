@@ -7,7 +7,7 @@
     <persistence-unit name="employee" transaction-type="JTA"> 
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <jta-data-source>empDataSource</jta-data-source> 
-        <class>com.pwc.jwt.model.Greeting</class> 
+        <class>com.pwc.jwt.model.Employee</class> 
         <properties> 
             <!-- <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.driver.OracleDriver"/>
             <property name="javax.persistence.jdbc.url" value="dbc:oracle:thin:@localhost:1521/XE"/>
